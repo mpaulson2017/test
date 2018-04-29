@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> Contact Us </title>
+	<meta charset ="UTF-8"/>
+	<link rel="stylesheet" href="../css/styles.css" />
+	
+<style>
+
+	body {
+		 font-family: algerian, helvetica, sans-serif;
+		 width: 900px;
+		 color:#64FE2E;
+		 font-weight: normal; 
+         background:#BCF5A9;
+	}
+	
+	 h1	{
+		font-family: algerian, helvetica, sans-serif;
+		color:#006400;
+	}
+	
+	h2	{
+		font-family: mv boli, helvetica, sans-serif;
+		color:#009933;
+	}
+	
+    p	{
+		font-size: 16px; 
+		font-family: comic sans ms, helvetica, sans-serif;
+		color:#33CC00;
+	}
+	  
+    #navigation	{
+				height: 120px;
+    			width: 95%;
+   				background-color:#CCF2FF;
+   				margin-top:40px;
+                padding-top:40px;
+				padding-bottom:70px;
+                border-style:solid;	
+                border-color:#33CC00;
+    }
+  	
+	ul li	{
+    		font-style:normal;
+            font-weight:normal;
+            font-size:14px;
+    }
+			
+   a:link	{color:#003366;text-decoration:none;}
+   a:visited	{color:#6699CC;text-decoration:none;}
+   a:active	{color:#CC3300;text-decoration:underline;}
+   a:hover	{color:#009933;}
+   
+</style>
+
+</head>
+<body>
+
+  <div id="navigation">
+    <ul>
+      <li> <a href="../index.html">Home</a></li>
+      <li> <a href="page2.html">Pro Shop</a></li>
+      <li> <a href="page3.html">About Us</a></li>
+	  <li> <a href="contact.html">Contact Us</a></li>
+	  <li> <a href="table.html">Scorecard</a></li>
+	  <li> <a href="ocean.html">Ocean Course</a></li>
+	  <li> <a href="prairie.html">Prairie Course</a></li>
+    </ul>
+  </div> <!-- end navigation -->
+  
+<h1>Contact us for a Lesson!</h1>
+
+<p>Fill out the information below, as well as your current golf handicap to get you matched with the right instructor!</p>
+
+
+	<form id="Emailform" method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+		<p><label for= "Name">Name:</label> <input name="Name" id="Name" type="text" /></p>
+		<p><label for="Email">Email:</label> <input name="Email" id="Email" type="email" /></p>
+	
+		<p><label for="Age">Age:</label>
+				<select name="Age" id="Age">
+					<option selected="selected">Over 60</option>
+					<option>40-59</option>
+					<option>25-39</option>
+					<option>16-24</option>
+					<option>Under 15</option>
+				</select></p>
+			
+		<p>Handicap Index
+		<input name="handicap" id="handicap1" type="radio" value="under10" checked="checked" />
+		<label for="handicap1">Under 10</label>
+		<input name="handicap" id="handicap2" type="radio" value="h1020" />
+		<label for="handicap2">10-20</label>
+		<input name="handicap" id="handicap3" type="radio" value="over20" />
+		<label for="handicap3">Over 20</label>
+	
+		<p>Comments:<br />
+			<textarea name="comments" rows="4" cols="30" placeholder="Comments here"></textarea></p>
+				
+		<p><input type="submit" value="Submit"/></p>
+	
+	</form>
+</body>
+</html>
+
+	
