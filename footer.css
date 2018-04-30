@@ -1,0 +1,30 @@
+
+#entireFooter{
+	background:#dca570;
+	padding:10px;
+	bottom:0px;
+	float:left;
+	width:100%;
+	max-height:5%;
+	color:white;
+	margin-top:10px;
+}
+#contactinfo{
+	margin-left:30%;
+	float:left;
+}
+#socialmedia{
+	margin-left:10%;
+	float:left;
+}
+#mininav{
+	margin-left:10%;
+	float:left;
+	margin-right:25%;
+}
+
+#footerimg{
+	margin-left:15%;
+	height:250px;
+	width:75%;
+}
